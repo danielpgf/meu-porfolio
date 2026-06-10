@@ -21,7 +21,6 @@ elementosFade.forEach(function(el) {
 
 
 
-// Verifica se os filtros existem nesta página
 const botoesFiltro = document.querySelectorAll('.filtro');
 const cards        = document.querySelectorAll('.card');
 const semResultados = document.getElementById('sem-resultados');
