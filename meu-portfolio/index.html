@@ -4,11 +4,171 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio | Daniel Faria</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Olá, eu sou Daniel Faria</h1>
-  <p>Bem-vindo ao meu portfólio!</p>
-  <script src="script.js"></script>
+
+  <nav>
+    <span class="logo">Daniel Faria</span>
+    <ul class="nav-links">
+      <li><a href="index.html" class="ativo">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="hero">
+      <div class="hero-conteudo">
+        <span class="tag">Ciência da Computação</span>
+        <h1>Olá, eu sou<br /><span class="destaque">Daniel Faria</span></h1>
+        <p class="hero-sub">Estudante · Desenvolvedor </p>
+        <p class="hero-desc">
+          Um estudante de Ciência da Computação com interesse em desenvolvimento, cibersegurança e inteligência artificial.
+        </p>
+        <div class="hero-botoes">
+          <a href="projetos.html" class="btn btn-primario">Ver Projetos</a>
+          <a href="#sobre" class="btn btn-outline">Saiba mais</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-anel">
+          <div class="avatar-interno">
+            <span>👤</span>
+            <img src="imagens/minha-foto.jpg" alt="Foto de perfil" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <p class="eyebrow">Quem sou eu</p>
+      <h2 class="titulo-secao">Sobre mim</h2>
+      <hr class="linha" />
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <p>
+            Sou estudante de <strong>Ciência da Computação</strong> com interesse em cibersergurança e desenvolvimento em geral. Possuo pequena exper
+            iência, porém grande vontade aprender e crescer na área de tecnologia.
+          </p>
+          <p>
+            Fora do código, sou um apaixonado por música, esportes e amizades. Acredito que a tecnologia tem o poder de transformar tudo.
+          </p>
+
+          <p class="subtitulo-lista">Interesses profissionais:</p>
+          <ul class="lista-interesses">
+            <li>Cibersergurança</li>
+            <li>Algoritmos e Estruturas de Dados</li>
+            <li>Inteligência Artificial</li>
+            <li>Desenvolvimento Web</li>
+          </ul>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num">2°</span>
+            <span class="stat-label">Período em andamento</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Projetos realizados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Linguagens de programação</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Vontade de aprender</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="secao-escura">
+      <p class="eyebrow">O que eu sei</p>
+      <h2 class="titulo-secao">Habilidades</h2>
+      <hr class="linha" />
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <h3>🖥️ Front-end</h3>
+          <div class="tags">
+            <span class="tag-item tag-verde">HTML5</span>
+            <span class="tag-item tag-verde">CSS3</span>
+            <span class="tag-item tag-verde">JavaScript</span>
+            <span class="tag-item tag-verde">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <h3>⚙️ Programação</h3>
+          <div class="tags">
+            <span class="tag-item tag-verde">Python</span>
+            <span class="tag-item tag-verde">Java</span>
+            <span class="tag-item tag-cinza">C</span>
+            <span class="tag-item tag-cinza">OOP</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <h3>🛠️ Ferramentas</h3>
+          <div class="tags">
+            <span class="tag-item tag-verde">Git</span>
+            <span class="tag-item tag-verde">GitHub</span>
+            <span class="tag-item tag-cinza">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INSPIRAÇÕES -->
+    <section id="inspiracoes">
+      <p class="eyebrow">O que me move</p>
+      <h2 class="titulo-secao">Inspirações</h2>
+      <hr class="linha" />
+      <div class="inspo-grid">
+
+        <div class="inspo-card fade-in">
+          <span class="inspo-icone">🎵</span>
+          <h3>Música</h3>
+          <p>A música me ajuda a focar e encontrar criatividade nas soluções.</p>
+        </div>
+
+        <div class="inspo-card fade-in">
+          <span class="inspo-icone">📚</span>
+          <h3>Aprendizado contínuo</h3>
+          <p>Artigos, documentações e cursos são fontes constantes de crescimento.</p>
+        </div>
+
+        <div class="inspo-card fade-in">
+          <span class="inspo-icone">🌐</span>
+          <h3>Comunidade tech</h3>
+          <p>Ver projetos open source me inspira a criar coisas que realmente importam.</p>
+        </div>
+
+      </div>
+      <p class="dica" style="text-align:center; margin-top:1.5rem;">
+        ✏️ Substitua com o que realmente te inspira!
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Daniel Faria · Ciência da Computação</span>
+    <div class="footer-links">
+      <a href="https://github.com/danielpg" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/daniel-pg-faria" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:danielpgfaria@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
