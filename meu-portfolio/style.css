@@ -228,18 +228,16 @@ section {
   width: 265px;
   height: 265px;
   border-radius: 50%;
+  overflow: hidden;
   background-color: var(--card);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 4.5rem;
-  gap: 0.5rem;
+  flex-shrink: 0;
 }
 
-.avatar-interno p {
-  font-size: 0.8rem;
-  color: var(--mudo);
+.avatar-interno img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 
