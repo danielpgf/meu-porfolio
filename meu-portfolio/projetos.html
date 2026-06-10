@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos | Seu Nome</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">Seu Nome</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="index.html#sobre">Sobre</a></li>
+      <li><a href="index.html#habilidades">Habilidades</a></li>
+      <li><a href="projetos.html" class="ativo">Projetos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="pagina-cabecalho">
+      <p class="eyebrow">O que eu construí</p>
+      <h1 class="titulo-secao" style="font-size: 3rem;">Projetos</h1>
+      <p class="pagina-sub">
+        Uma seleção de trabalhos que fiz ao longo da graduação em Ciência da Computação.
+      </p>
+    </div>
+
+    <section id="projetos">
+
+      <!-- FILTROS -->
+      <div id="filtros">
+        <button class="filtro ativo" data-categoria="todos">Todos</button>
+        <button class="filtro" data-categoria="web">Web</button>
+        <button class="filtro" data-categoria="algoritmos">Algoritmos</button>
+        <button class="filtro" data-categoria="dados">Dados</button>
+        <button class="filtro" data-categoria="outros">Outros</button>
+      </div>
+
+      <!-- GRADE DE PROJETOS -->
+      <div id="grade-projetos">
+
+        <!-- PROJETO DESTAQUE -->
+        <article class="card card-destaque fade-in" data-categoria="web">
+          <div class="card-thumb thumb-web">🌐</div>
+          <div class="card-corpo">
+            <div class="card-meta">
+              <span class="categoria-badge badge-web">Web</span>
+              <span class="card-data">2024</span>
+            </div>
+            <h2>Projeto 1 — Título do seu artefato</h2>
+            <p>
+              Descreva aqui o seu Projeto 1. Fale sobre o que ele faz, qual problema resolve,
+              quais tecnologias foram usadas e o que você aprendeu com ele.
+            </p>
+            <p class="dica">✏️ Substitua com a descrição real do seu Projeto 1.</p>
+            <div class="card-tags">
+              <span class="tag-item tag-cinza">HTML</span>
+              <span class="tag-item tag-cinza">CSS</span>
+              <span class="tag-item tag-cinza">JavaScript</span>
+            </div>
+            <div class="card-acoes">
+              <a href="#" class="btn btn-primario">Ver projeto</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJETO 2 -->
+        <article class="card fade-in" data-categoria="algoritmos">
+          <div class="card-thumb thumb-algo">⚙️</div>
+          <div class="card-corpo">
+            <div class="card-meta">
+              <span class="categoria-badge badge-algo">Algoritmos</span>
+              <span class="card-data">2024</span>
+            </div>
+            <h2>Projeto 2 — Nome do projeto</h2>
+            <p>Descrição breve do que este projeto faz e como foi construído.</p>
+            <div class="card-tags">
+              <span class="tag-item tag-cinza">Python</span>
+              <span class="tag-item tag-cinza">Estruturas de Dados</span>
+            </div>
+            <div class="card-acoes">
+              <a href="#" class="btn btn-primario">Ver projeto</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJETO 3 -->
+        <article class="card fade-in" data-categoria="dados">
+          <div class="card-thumb thumb-dados">📊</div>
+          <div class="card-corpo">
+            <div class="card-meta">
+              <span class="categoria-badge badge-dados">Dados</span>
+              <span class="card-data">2024</span>
+            </div>
+            <h2>Projeto 3 — Nome do projeto</h2>
+            <p>Descrição breve do que este projeto faz e como foi construído.</p>
+            <div class="card-tags">
+              <span class="tag-item tag-cinza">Python</span>
+              <span class="tag-item tag-cinza">Pandas</span>
+            </div>
+            <div class="card-acoes">
+              <a href="#" class="btn btn-primario">Ver projeto</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJETO 4 -->
+        <article class="card fade-in" data-categoria="outros">
+          <div class="card-thumb thumb-outros">🎮</div>
+          <div class="card-corpo">
+            <div class="card-meta">
+              <span class="categoria-badge badge-outros">Outros</span>
+              <span class="card-data">2024</span>
+            </div>
+            <h2>Projeto 4 — Nome do projeto</h2>
+            <p>Descrição breve do que este projeto faz e como foi construído.</p>
+            <div class="card-tags">
+              <span class="tag-item tag-cinza">JavaScript</span>
+              <span class="tag-item tag-cinza">Canvas</span>
+            </div>
+            <div class="card-acoes">
+              <a href="#" class="btn btn-primario">Ver projeto</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="sem-resultados" style="display:none; text-align:center; color:#888; padding:3rem;">
+        Nenhum projeto nessa categoria ainda.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2024 Seu Nome · Ciência da Computação</span>
+    <div class="footer-links">
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:seu@email.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
