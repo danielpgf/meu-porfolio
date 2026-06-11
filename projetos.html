@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto | Daniel Faria</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="logo">Daniel Faria</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="index.html#sobre">Sobre</a></li>
+      <li><a href="index.html#habilidades">Habilidades</a></li>
+      <li><a href="projetos.html" class="ativo">Projeto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="pagina-cabecalho">
+      <p class="eyebrow">O que eu construí</p>
+      <h1 class="titulo-secao" style="font-size: 3rem;">Projeto</h1>
+      <p class="pagina-sub">
+        Meu Projeto do primeiro período.
+      </p>
+    </div>
+
+    <section id="projetos">
+
+
+      <!-- GRADE DE PROJETOS -->
+      <div id="grade-projetos">
+
+        <!-- PROJETO DESTAQUE -->
+        <article class="card card-destaque fade-in" data-categoria="web">
+        <div class="card-thumb thumb-web">
+          <img src="imagens/projeto1.jpeg" alt="Projeto Manguetown" />
+        </div>
+        <div class="card-corpo">
+            <div class="card-meta">
+              <span class="categoria-badge badge-web">Web</span>
+              <span class="card-data">2026</span>
+            </div>
+            <h2>Projeto 1: Manguetown </h2>
+            <p>
+             No meu primeiro projeto desse período, recebemos a problemática de fazer um jogo para deficientes cognitivos intelectuais. 
+             Durante a construção da nossa ideia, decidimos fazer um jogo de tabuleiro interativo, com luzes de led e botões com luzes que
+             facilitassem a forma de jogar um jogo como esse para pessoas dislexas. Para completar, os personagens ainda são folclores e 
+             referências ao nosso recife. Nosso projeto não está montado ainda, por isso está na foto somente o arduino.
+
+
+            </p>
+            <p class="dica"></p>
+            <div class="card-tags">
+              <span class="tag-item tag-cinza">Arduino</span>
+              <span class="tag-item tag-cinza">C</span>
+            </div>
+            <div class="card-acoes">
+              <a href="#" class="btn btn-primario">Ver projeto</a>
+              <a href="https://github.com/gabriellalbq/Manguetown/blob/main/codigo.ino" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+
+      <p id="sem-resultados" style="display:none; text-align:center; color:#888; padding:3rem;">
+        Nenhum projeto nessa categoria ainda.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Daniel Faria · Ciência da Computação</span>
+    <div class="footer-links">
+      <a href="https://github.com/danielpgf" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/daniel-pg-faria" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:danielpgfaria@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
